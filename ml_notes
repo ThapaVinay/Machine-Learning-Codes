@@ -1,0 +1,21 @@
+Applications ->
+a. customer evaluation
+b. fraud detection
+
+
+Classification error matrix
+a. Confution matrix - a confusion matrix is an nxn matrix used for evaluating the performance of a classification model, where n is the number of target classes.
+	-> true positive : actual positive and predicted positive   
+	-> false positive : actual negative and predicted positive  {type 1 error}
+	-> false negative : actual positive and predicted negative  {type 2 error}
+	-> true negative : actual negative and predicted negative
+
+     # Accuracy : TP+TN / TP+FP+TN+FN
+     # Recall/Sensitivity/Capture rate : identifying all positive instances {TP/TP+FN} 
+     # Precision : identifying only positive instances {TP/TP+FP} 
+     # Specificity : avoiding false alarms {TN/FP+TN}
+     # F1 Score/ Harmonic mean : 2(P*R/P+R)
+   
+   
+=> bagged decision tree hasve 
+
